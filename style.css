@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Shadow\ Gradient\ by\ @Ongliong11.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#calculator
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(208, 113, 143, 0.723);
+    border-radius: 15px;
+    max-width:500px;
+    overflow:hidden;
+
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5em;
+    text-align: left;
+    border: none;
+    background-color:rgba(224, 28, 91, 0.723);
+    color: white;
+}
+
+
+
+
+#keys{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color:black;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(118, 102, 102);
+}
+
+button:active{
+    background-color: rgb(93, 80, 80);
+}
+
+.operator-btn{
+    background-color: rgb(40, 138, 190);
+}
+.operator-btn:hover{
+    background-color: rgb(242, 160, 8);
+
+    
+}
+
+.operator-btn:after{
+    background-color:rgb(255, 166, 0); ;
+}
